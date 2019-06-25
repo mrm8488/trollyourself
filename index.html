@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mood detector</title>
+	<meta name="description" content="Nina West is the kindness in all of us, see it for yourself here. Made by the Coding Queen: Anna Lytical" />
+	<!-- Twitter Card data -->
+	<!--<meta name="twitter:card" value="summary">-->
+	<!-- Open Graph data -->
+	<!--<meta property="og:title" content="Go West" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://anna-lytical.firebaseapp.com/go-west" />
+	<meta property="og:image" content="https://anna-lytical.firebaseapp.com/go-west/og-img.png" />
+	<meta property="og:description" content="Nina West is the kindness in all of us, see it for yourself here. Made by the Coding Queen: Anna Lytical" /> -->
+	
+	<!--<link rel="shortcut icon" href="nina-faces/neutral0.png"/> -->
+
+	<script type="text/javascript" src="face-api.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Give+You+Glory|Major+Mono+Display" rel="stylesheet">
+	<script src="https://apis.google.com/js/platform.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Troll yourself. <br>mrm8488</h1>
+		<div id="video-container">
+			<!--<span class="anna"> 
+				Created by <div class="g-ytsubscribe" data-channelid="UCK-XsdHry-tJ2IsNOHTGdcA" data-layout="full" data-count="hidden"></div>	
+			</span> -->
+			<video id="camera-stream" autoplay playsinline></video>
+			<div id="camera-denied">Access to your camera was denied, please enable to experience Nina West in augmented reality, or just play with the soundboard below.</div>
+			<canvas id="overlay"></canvas>
+		</div>
+ 	<span id="mood-detection">
+		<h3>use mood detection</h3> 
+		<label class="switch" > 
+			<input onclick="toggleMoodDetectionMode()" type="checkbox">
+			<span class="slider round"></span>
+		</label>
+	</span>
+	<div class="sound-buttons">
+		<!--<div onclick="play('cheeseplate','angry')">
+			<img src="nina-faces/angry0.png" alt="Nina west making an angry face."/>
+		</div>
+		<div onclick="play('melons','angry')">
+			<img src="nina-faces/angry1.png" alt="Nina west making an angry/surprised face in a sailor hat."/>
+		</div>
+		<div onclick="play('testify','happy')">
+			<img src="nina-faces/happy0.png" alt="Nina west making a happy face in a grey wig."/>
+		</div>
+		<div onclick="play('kmart','disgusted')">
+			<img src="nina-faces/disgusted0.png" alt="Nina west making a happy face in her fringe wig."/>
+		</div>
+		<div onclick="play('gowest','neutral')">
+			<img src="nina-faces/neutral0.png" alt="Nina west smiling out of drag."/>
+		</div>
+		<div onclick="play('elevengendary','happy')">
+			<img src="nina-faces/happy2.png" alt="Nina west making a happy face in her entrance look."/>
+		</div>
+		<div onclick="play('seemymom','sad')">
+			<img src="nina-faces/sad0.png" alt="Nina west making an overly sad face."/>
+		</div>
+		<div onclick="play('gloryholes','surprised')">
+			<img src="nina-faces/surprised1.png" alt="Nina west in her polka dot face-kini."/>
+		</div>
+		<div onclick="play('tryingmary','surprised')">
+			<img src="nina-faces/surprised0.png" alt="Nina west making a shocked face."/>
+		</div>-->
+	</div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
