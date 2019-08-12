@@ -9,15 +9,7 @@ const canvasContext = canvas.getContext("2d");
 
 const imgFolder = "trollfaces-no-bg";
 
-/*const ninaFaces = [
-	"angry0.png", "disgusted0.png", "fearful0.png",
-	"happy1.png", "neutral0.png",
-	"sad0.png", "surprised0.png",
-].map(function(src) {
-	const i = new Image();
-	i.src = "nina-faces/" + src;
-	return i;
-});*/
+const moodDetectionMode = true;
 
 const trollfaces = [
   "angry.png",
@@ -119,13 +111,13 @@ async function setupCameraInput() {
   }
 }
 
-let moodDetectionMode = false;
+/*let moodDetectionMode = false;
 
 function toggleMoodDetectionMode() {
   moodDetectionMode = !moodDetectionMode;
-}
+}*/
 
-var audio;
+/*var audio;
 
 function play(url, mood) {
   currentExpression = mood;
@@ -134,4 +126,4 @@ function play(url, mood) {
   }
   audio = new Audio("sounds/" + url + ".mp3");
   audio.play();
-}
+}*/
